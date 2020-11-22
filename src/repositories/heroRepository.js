@@ -24,17 +24,3 @@ class HeroRepository {
 }
 
 module.exports = HeroRepository;
-
-// const heroRepository = new HeroRepository({
-//   file: "./../../databases/data.json",
-// });
-// heroRepository.find(1).then(console.log).catch(console.error);
-// heroRepository
-//   .create({
-//     id: 2,
-//     name: "Pelé",
-//     age: 110,
-//     power: "Ancient",
-//   })
-//   .then(console.log)
-//   .catch(console.error);
