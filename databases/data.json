@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Xuxa Da Silva",
+        "age": 100,
+        "power": "Ancient"
+    },
+    {
+        "id": 2,
+        "name": "Pelé",
+        "age": 110,
+        "power": "Ancient"
+    }
+]
