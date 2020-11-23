@@ -9,7 +9,12 @@ curl --silent -X POST \
     --data-binary '{"invalid": "data"}' \
     localhost:3000/heroes
 
-echo '\n\ncreate valid hero'
+echo '\n\ncreate Superman'
 curl --silent -X POST \
     --data-binary '{ "name": "Superman", "age": 33, "power": "Super Strength"}' \
     localhost:3000/heroes
+
+ID=$(echo $CREATE | jq .id)
+
+echo '\n\nrequest Superman'
+curl localhost:3000/heroes/$ID
